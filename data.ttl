@@ -30,4 +30,3 @@
 :Student a schema:Occupation ;
     owl:sameAs dbpedia:Student ;
     schema:description "An individual engaged in learning at a school or university" .
-
