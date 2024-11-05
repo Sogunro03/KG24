@@ -18,6 +18,15 @@
     schema:affiliation dbpedia:University_of_California ; # 
     # Link to Wikidata for the concept of a student
     owl:sameAs wd:Q48282 ; # Student
+  # Link to a specific occupation in Wikidata
+    foaf:based_near wd:Q1735 ;  #INNSBRUCK
+
+    # Educational affiliation: Example with a specific university
+    schema:alumniOf wd:Q742241 ;  # 
+    # Specific topics of interest
+    schema:knowsAbout wd:Q21198,    # Computer Science
+                      wd:Q2374463,    # Data Science
+                      wd:Q11660 ;    # Artificial Intelligence
 
     # Link Timmy's occupation and relevant topics to external concepts
     schema:knowsAbout dbpedia:Computer_Science, 
