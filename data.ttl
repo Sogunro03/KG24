@@ -5,7 +5,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-
+# Define Timmy Sogunro with external links and additional context
 :TimmySogunro a foaf:Person ;
     foaf:firstName "Timmy" ;
     foaf:lastName "Sogunro" ;
@@ -16,7 +16,7 @@
     # Linking Occupation to DBpedia for context
     schema:affiliation dbpedia:University ; # Linking to "University" on DBpedia for context on Student role
     
-    # Link  occupation and relevant topics to external concepts
+    # Link Timmy's occupation and relevant topics to external concepts
     schema:knowsAbout dbpedia:Computer_Science, 
                       dbpedia:Artificial_Intelligence,  # Added AI as a related topic
                       dbpedia:Data_Science, 
