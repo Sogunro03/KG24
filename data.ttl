@@ -17,7 +17,7 @@
     # Linking Occupation to DBpedia for context
     schema:affiliation dbpedia:University_of_California ; # 
     # Link to Wikidata for the concept of a student
-    owl:sameAs wd:Q3918 ; # Student
+    owl:sameAs wd:Q48282 ; # Student
 
     # Link Timmy's occupation and relevant topics to external concepts
     schema:knowsAbout dbpedia:Computer_Science, 
@@ -32,5 +32,5 @@
 # Declare "Student" as a class related to the broader academic concept
 :Student a schema:Occupation ;
     owl:sameAs dbpedia:Student ; # Linking to DBpedia's concept of student
-    owl:sameAs wd:Q3918 ; # Linking to Wikidata's concept of student
+    owl:sameAs wd:Q48282 ; # Linking to Wikidata's concept of student
     schema:description "An individual engaged in learning at a school or university" .
