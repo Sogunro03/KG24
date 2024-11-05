@@ -12,7 +12,7 @@
     foaf:lastName "Sogunro" ;
     schema:email "timmysogunro@gmail.com" ;
     foaf:homepage <https://www.linkedin.com/in/oluwatimilehin-sogunro-075a0615a/> ;
-    schema:jobTitle "Student" ;
+    schema:jobTitle "student" ;
     
     # Linking Occupation to DBpedia for context
     schema:affiliation dbpedia:University_of_California ; # 
