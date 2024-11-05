@@ -1,0 +1,10 @@
+@prefix : <https://sogunro03.github.io/data#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+
+:TimmySogunro a foaf:Person ;
+    foaf:firstName "Timmy" ;
+    foaf:lastName "Sogunro" ;
+    schema:email "timmysogunro@gmail.com" ;
+    foaf:homepage <https://www.linkedin.com/in/oluwatimilehin-sogunro-075a0615a/> ;
+    schema:jobTitle "Student" .
